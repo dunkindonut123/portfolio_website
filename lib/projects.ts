@@ -8,7 +8,6 @@ export type Project = {
   color: 'coral' | 'blue' | 'yellow'
   role: string
   goal: string
-  outcome: string
   learned: string
   next: string
   demo: string
@@ -27,7 +26,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Product designer & developer',
     goal: 'Give Fun Mandarin one system for class enrollment, chapter practice, and teacher oversight instead of tracking lessons outside the product.',
-    outcome: 'Students join with a class code, work through locked chapter assignments, and teachers can review attempts while admins approve teachers and HSK promotions.',
     learned: 'How to interact with clients and leverage AI to build full-stack apps',
     next: 'Placeholder: I would add stronger empty states and make the planning flow easier to explain.',
     demo: 'https://www.funmandarin.id',
@@ -44,7 +42,6 @@ export const projects: Project[] = [
     color: 'blue',
     role: 'Project eveloper',
     goal: 'Give The Beauty Tailor one place to present the atelier, the mills, and the services, and let someone book a consultation without calling the shop first.',
-    outcome: 'Visitors walk through heritage, craftsmanship, cloth mills, and services in Indonesian, then book on WhatsApp or send a consultation request that arrives by email.',
     learned: 'placeholder',
     next: 'placeholder',
     demo: 'https://thebeautytailor.id',
@@ -61,7 +58,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Full-stack developer',
     goal: 'Give students one place to report found items and claim what they lost.',
-    outcome: 'Placeholder outcome: a working flow from public listings and photo reports through claims, notifications, and admin approve/reject.',
     learned: 'Placeholder: row-level security and claim status checks had to block invalid claims, not just the form.',
     next: 'Placeholder: I would add a live demo and tighten the return flow after a claim is approved.',
     demo: 'https://example.com',
@@ -78,7 +74,6 @@ export const projects: Project[] = [
     color: 'yellow',
     role: 'Machine learning developer',
     goal: 'Tell stress-related expressions (fear, sadness) apart from happiness and neutrality on a single photo.',
-    outcome: 'EfficientNet-B0 reached 74% test accuracy and 73% macro F1 on 3,867 held-out images, after merging FER2013, AffectNet, and NHFI and dropping duplicate faces.',
     learned: 'Cutting the task to four emotions raised validation macro recall to 74.5%, from 69.9% on the five-class model. Extra test-time views did not help (−0.56% macro F1).',
     next: 'Clear the leftover cross-split duplicates (32 remained after dedup) and turn the notebook into a small inference script.',
     demo: 'https://example.com',
@@ -95,7 +90,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Backend developer',
     goal: 'Let a client look up interesting destinations and narrow them by location or public access.',
-    outcome: 'Placeholder outcome.',
     learned: 'Learned how a Node HTTP server reads a request URL, filters an in-memory dataset by path and query parameters, and sends a JSON response.',
     next: 'Placeholder: I would validate query values before parsing them and add tests for the filter helpers.',
     demo: 'Placeholder',
@@ -112,7 +106,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Frontend developer',
     goal: 'Share a bootcamp learning journey in a simple site that stays readable on phone, tablet, and desktop.',
-    outcome: 'Placeholder outcome: no published result yet. The site shows a dated hero plus six posts on the home page and three recent posts on the about page.',
     learned: 'Static HTML was enough for a first version, but repeating the same post markup on both pages made later updates harder.',
     next: 'Placeholder: I would keep posts in one data source and render both pages from it so titles and dates stay in sync.',
     demo: 'https://example.com',
@@ -129,7 +122,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Frontend developer',
     goal: 'Practice fetching from a public API and rendering a usable color scheme from user input.',
-    outcome: 'Users can pick a color, choose a mode like analogic or triad, and see five swatches plus hex codes from The Color API.',
     learned: 'Query parameters and response mapping matter more than the UI: strip the # from the color picker, then write each hex onto both the swatch and the label.',
     next: 'I would add click-to-copy for hex values, handle failed requests, and generate the five columns from the API array instead of hardcoding them.',
     demo: '',
@@ -146,7 +138,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Frontend developer',
     goal: 'Play a full game of War from a shuffled deck without dealing or scoring by hand.',
-    outcome: 'New Deck shuffles via the Deck of Cards API, each draw shows both cards and updates the score, and the game names a winner when the deck is empty.',
     learned: 'The shuffle request has to save the deck id, because every later draw is a separate request that depends on it.',
     next: 'Play out a tie by drawing extra cards, and reset both scores when a new deck is shuffled.',
     demo: 'https://example.com',
@@ -163,7 +154,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Frontend developer',
     goal: 'Open a new tab and see the time, local weather, and a photo without looking them up.',
-    outcome: 'The new-tab page loads a random nature photo from Unsplash, Dogecoin’s price and 24-hour range from CoinGecko, and local weather from OpenWeatherMap after the browser shares its location. The clock updates every second.',
     learned: 'The photo, price, and weather requests had to fail on their own. A bad photo response falls back to a saved image and credit, and a bad price or weather response is logged so the clock still runs.',
     next: 'I would show a message when location or weather fails, refresh the price on a timer, and let the coin be chosen instead of hardcoding Dogecoin.',
     demo: '',
@@ -180,7 +170,6 @@ export const projects: Project[] = [
     color: 'coral',
     role: 'Frontend developer',
     goal: 'Let a customer order from a short menu and check out with a simple payment form.',
-    outcome: 'Placeholder outcome: made personal expenses easier to review week by week.',
     learned: 'Learned the flow between JavaScript, HTML, CSS by accessing the DOM and using addEventListeners',
     next: 'Placeholder: I would add monthly summaries and better input validation.',
     demo: 'https://example.com',
