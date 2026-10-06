@@ -81,8 +81,24 @@ export const projects: Project[] = [
     image: '/projects/fer-stress-detection.png',
   },
   {
-    slug: 'horizons-api',
+    slug: 'from-the-other-side',
     number: '05',
+    title: 'From the Other Side',
+    type: 'Sightings board',
+    description: 'A platform for sharing ghostly encounters, with pages to read sightings, upload them, and follow a live news feed.',
+    tags: ['Node.js', 'Vanilla JS', 'JSON'],
+    color: 'coral',
+    role: 'Full-stack developer',
+    goal: 'Give paranormal sightings one place to be recorded and read.',
+    learned: 'Placeholder',
+    next: 'Placeholder',
+    demo: 'Placeholder',
+    source: 'https://github.com/dunkindonut123/fullstack-node-app',
+    image: '/projects/from-the-other-side.jpg',
+  },
+  {
+    slug: 'horizons-api',
+    number: '06',
     title: 'Horizons API',
     type: 'Node.js REST API · 2026',
     description: 'A small HTTP API over a dataset of 19 unusual places. Clients can list them all, or filter by continent, country, and whether a site is open to the public.',
@@ -98,7 +114,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'learning-journal',
-    number: '06',
+    number: '07',
     title: 'Learning Journal',
     type: 'Journal site · 2026',
     description: 'A two-page journal with a hero, a responsive post grid, and an about page for sharing a bootcamp learning journey.',
@@ -114,7 +130,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'color-scheme-generator',
-    number: '07',
+    number: '08',
     title: 'Color Scheme Generator',
     type: 'Solo project · 2026',
     description: 'A palette tool that turns a seed color and scheme mode into five matching swatches with hex values.',
@@ -130,7 +146,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'deck-of-war',
-    number: '08',
+    number: '09',
     title: 'Deck of War',
     type: 'Card game · 2026',
     description: 'A browser game of War that shuffles a deck, draws one card for each side, and keeps score until the cards run out.',
@@ -146,7 +162,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'momentum-dashboard',
-    number: '09',
+    number: '10',
     title: 'Momentum Dashboard',
     type: 'New tab · async JS',
     description: 'A Chrome new-tab page with the time, local weather, a Dogecoin quote, and a nature photo.',
@@ -162,7 +178,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'jimmys-diner',
-    number: '10',
+    number: '11',
     title: "Jimmy's Diner",
     type: 'Restaurant ordering app · 2026',
     description: 'A small diner menu where you add items, see a running total, and complete a mock checkout.',
@@ -176,22 +192,6 @@ export const projects: Project[] = [
     source: 'https://github.com/dunkindonut123/restaurant_ordering_app',
     image: '/projects/jimmys-diner.jpg',
   },
-  // {
-  //   slug: 'open-desk',
-  //   number: '10',
-  //   title: 'Open Desk',
-  //   type: 'Job board · 2023',
-  //   description: 'A local internship board that collects openings in one place instead of ten tabs.',
-  //   tags: ['React', 'Node.js', 'PostgreSQL'],
-  //   color: 'coral',
-  //   role: 'Full-stack developer',
-  //   goal: 'Shorten the search for relevant internship listings.',
-  //   outcome: 'Placeholder outcome: shortened the search for relevant internship listings.',
-  //   learned: 'Placeholder: filters only helped once the listing data was consistent.',
-  //   next: 'Placeholder: I would add saved searches and a cleaner application tracker.',
-  //   demo: 'https://example.com',
-  //   source: 'https://github.com/dunkindonut123',
-  // },
 ]
 
 export const featuredProjects = projects.slice(0, 3)
